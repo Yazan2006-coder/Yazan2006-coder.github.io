@@ -422,6 +422,8 @@ header a:hover {
     color: rgba(255, 180, 211, 1);
 }
 #contact-section {
+    display: flex;
+    flex-direction: column;
     background-color: rgba(245, 245, 245, 1);
     padding: 60px 20px;
     height: 630px;
@@ -456,7 +458,9 @@ header a:hover {
     justify-content: space-between;
     gap: 50px;
 }
-
+.contact-info {
+    min-width: 35vw;
+}
 .contact-info h3 {
     font-family: Montserrat, sans-serif;
     font-size: 18px;
@@ -510,12 +514,10 @@ header a:hover {
     font-weight: 500;
     margin-bottom: 8px;
     color: black;
-    margin-left: 350px;
 }
 
 .form-group input,
 .form-group textarea {
-    margin-left: 350px;
     padding: 12px 15px;
     border: 1px solid rgba(200, 200, 200, 1);
     border-radius: 8px;
@@ -533,7 +535,6 @@ header a:hover {
 .submit-btn {
     display: flex;
     justify-content: center;
-    margin-left: 350px;
     padding: 15px 30px;
     background-color: rgba(85, 162, 226, 1);
     color: white;
@@ -555,4 +556,24 @@ header a:hover {
     margin-right: 10px;
     margin-bottom: -3px;
     color: white;
+}
+@media screen and (min-width: 600px){
+    footer {
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 600px){
+    main {
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 600px){
+    header {
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 600px){
+    body {
+        justify-content: center;
+    }
 }
