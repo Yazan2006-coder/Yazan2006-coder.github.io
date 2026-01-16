@@ -559,21 +559,17 @@ header a:hover {
 }
 @media screen and (min-width: 600px){
     footer {
-        justify-content: center;
     }
 }
 @media screen and (min-width: 600px){
     main {
-        justify-content: center;
     }
 }
 @media screen and (min-width: 600px){
     header {
-        justify-content: center;
     }
 }
 @media screen and (min-width: 600px){
     body {
-        justify-content: center;
     }
 }
