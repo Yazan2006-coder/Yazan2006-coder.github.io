@@ -501,6 +501,7 @@ header a:hover {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    
 }
 
 .form-group {
@@ -557,19 +558,351 @@ header a:hover {
     margin-bottom: -3px;
     color: white;
 }
-@media screen and (min-width: 600px){
-    footer {
-    }
-}
-@media screen and (min-width: 600px){
-    main {
-    }
-}
-@media screen and (min-width: 600px){
-    header {
-    }
-}
-@media screen and (min-width: 600px){
+/* Mobile-first responsive design */
+
+/* Small Mobile Devices (320px - 480px) */
+@media screen and (max-width: 480px) {
     body {
+        padding-top: 60px;
+        height: auto;
     }
+
+    header {
+        padding: 8px 15px;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .main-title h1 {
+        font-size: 14px;
+    }
+
+    .navigation {
+        gap: 15px;
+        margin-right: 0;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navigation a {
+        font-size: 14px;
+    }
+
+    .my-image {
+        width: 550px;
+        height: 550px;
+    }
+
+    .myself {
+        padding: 40px 15px;
+        min-height: auto;
+    }
+
+    .myself-content h2 {
+        font-size: 18px;
+    }
+
+    .subtitle {
+        font-size: 16px;
+    }
+
+    .description {
+        font-size: 14px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .btn {
+        width: 100%;
+        padding: 10px 20px;
+        font-size: 13px;
+    }
+
+    .social-media-icons {
+        margin-top: -50px;
+        gap: 15px;
+    }
+
+    .arrow-down {
+        width: 35px;
+        height: 35px;
+    }
+
+    #about-me-section {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .about-me-image {
+        margin-top: 20px;
+        margin-left: 0;
+        width: 100%;
+        height: auto;
+        padding: 15px;
+    }
+
+    .about-me-text {
+        margin-top: 20px;
+        font-size: 18px;
+    }
+
+    .about-me-description {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+
+    #skills-section {
+        height: auto;
+        padding: 30px 15px;
+    }
+
+    .skills {
+        padding: 20px 0;
+        margin-top: 20px;
+    }
+
+    .skills-text {
+        font-size: 18px;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .skills-description {
+        font-size: 14px;
+        margin-left: 0;
+        padding: 10px 0;
+    }
+
+    .skills-cards-container {
+        padding: 20px 0;
+        gap: 20px;
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .skill-card {
+        width: 100%;
+        max-width: 250px;
+        padding: 20px;
+    }
+
+    #project-section {
+        height: auto;
+        padding: 30px 15px;
+    }
+
+    .projects {
+        padding: 20px 0;
+        margin-top: 20px;
+    }
+
+    .projects-text {
+        font-size: 18px;
+        margin-left: 0;
+    }
+
+    .projects-description {
+        font-size: 14px;
+        margin-left: 0;
+        padding: 10px 0;
+    }
+
+    .projects-cards-container {
+        padding: 20px 0;
+        gap: 15px;
+    }
+
+    .project-card {
+        width: 100%;
+        max-width: 280px;
+    }
+
+    #contact-section {
+        height: auto;
+        padding: 40px 15px;
+    }
+
+    .contact-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .contact-info {
+        min-width: 100%;
+    }
+
+    .contact-text {
+        font-size: 18px;
+    }
+
+    .contact-description {
+        font-size: 14px;
+        padding: 10px 0;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        width: 100%;
+    }
+
+    .submit-btn {
+        width: 100%;
+    }
+}
+
+/* Tablets (481px - 768px) */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    body {
+        padding-top: 70px;
+    }
+
+    header {
+        padding: 10px 20px;
+    }
+
+    .main-title h1 {
+        font-size: 16px;
+    }
+
+    .navigation {
+        gap: 25px;
+        margin-right: 20px;
+    }
+
+    .navigation a {
+        font-size: 14px;
+    }
+
+    .my-image {
+        width: 180px;
+        height: 180px;
+    }
+
+    .myself {
+        padding: 60px 20px;
+    }
+
+    .myself-content h2 {
+        font-size: 22px;
+    }
+
+    .subtitle {
+        font-size: 18px;
+    }
+
+    .description {
+        font-size: 16px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .btn {
+        width: 200px;
+    }
+
+    .about-me-image {
+        margin-left: 50px;
+        width: 300px;
+        height: auto;
+    }
+
+    .about-me-text {
+        margin-top: 150px;
+        font-size: 20px;
+    }
+
+    #about-me-section {
+        flex-direction: column;
+    }
+
+    .about-me-image {
+        margin-left: 0;
+        width: 80%;
+        padding: 20px;
+        margin-top: 0;
+    }
+
+    #skills-section {
+        height: auto;
+    }
+
+    .skills-cards-container {
+        padding: 40px 20px;
+        gap: 50px;
+    }
+
+    .skill-card {
+        width: 200px;
+    }
+
+    #project-section {
+        height: auto;
+    }
+
+    .projects-cards-container {
+        padding: 30px 20px;
+        gap: 20px;
+    }
+
+    .project-card {
+        width: 220px;
+    }
+
+    .contact-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .contact-info {
+        min-width: 100%;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        width: 100%;
+    }
+}
+
+/* Medium Devices / Laptops (769px - 1024px) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .navigation {
+        gap: 35px;
+        margin-right: 40px;
+    }
+
+    .skills-cards-container {
+        padding: 55px 80px;
+        gap: 50px;
+    }
+
+    .skill-card {
+        width: 240px;
+    }
+
+    .about-me-image {
+        margin-left: 400px;
+        width: 350px;
+        height: 450px;
+    }
+
+    .contact-container {
+        gap: 30px;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        width: 400px;
+    }
+}
+
+/* Large Devices / Desktops (1025px+) */
+@media screen and (min-width: 1025px) {
+    /* Default styles already handle large screens */
 }
