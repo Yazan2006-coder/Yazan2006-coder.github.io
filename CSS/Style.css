@@ -567,8 +567,8 @@ header a:hover {
 
     header {
         padding: 8px 15px;
-        flex-direction: column;
         gap: 15px;
+        width: 89%;
     }
 
     .main-title h1 {
@@ -587,8 +587,14 @@ header a:hover {
     }
 
     .my-image {
-        width: 550px;
-        height: 550px;
+        display: flex;
+        justify-content: center;
+        width: 150px;
+        height: 150px;
+        margin-top: 50px;
+    }
+    .myself-content{
+        padding: 70px;
     }
 
     .myself {
@@ -596,20 +602,7 @@ header a:hover {
         min-height: auto;
     }
 
-    .myself-content h2 {
-        font-size: 18px;
-    }
-
-    .subtitle {
-        font-size: 16px;
-    }
-
-    .description {
-        font-size: 14px;
-    }
-
     .buttons {
-        flex-direction: column;
         gap: 15px;
     }
 
@@ -620,7 +613,7 @@ header a:hover {
     }
 
     .social-media-icons {
-        margin-top: -50px;
+        margin-top: 0px;
         gap: 15px;
     }
 
@@ -771,6 +764,12 @@ header a:hover {
 
     .navigation a {
         font-size: 14px;
+    }
+    .contact-form {
+        display: flex;
+        justify-content: center;
+        background-color: rgba(245, 245, 245, 1);
+        padding-bottom: 60px;
     }
 
     .my-image {
