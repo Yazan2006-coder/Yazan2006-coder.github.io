@@ -902,7 +902,5 @@ header a:hover {
     }
 }
 
-/* Large Devices / Desktops (1025px+) */
 @media screen and (min-width: 1025px) {
-    /* Default styles already handle large screens */
 }
