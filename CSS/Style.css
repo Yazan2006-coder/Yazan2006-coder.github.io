@@ -558,9 +558,7 @@ header a:hover {
     margin-bottom: -3px;
     color: white;
 }
-/* Mobile-first responsive design */
 
-/* Small Mobile Devices (320px - 480px) */
 @media screen and (max-width: 480px) {
     body {
         padding-top: 60px;
@@ -753,7 +751,6 @@ header a:hover {
     }
 }
 
-/* Tablets (481px - 768px) */
 @media screen and (min-width: 481px) and (max-width: 768px) {
     body {
         padding-top: 70px;
